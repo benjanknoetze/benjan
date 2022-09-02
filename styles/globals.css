@@ -1,0 +1,141 @@
+html,
+body {
+  padding: 0 1%;
+  font-family: Playfair Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background: #0e0e0e !important;
+}
+
+:root {
+  --clr-lightblue: #52b6d4;
+  --clr-blue: #28a8d2;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+ font-size: 4.5rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+.btn-primary {
+  background: #000;
+  border: none;
+}
+
+.btn-primary:hover {
+  color: #FFF;
+  background: #000;
+}
+
+.btn-primary:active ,
+.btn-primary:focus, 
+.btn-primary:visited,
+.show>.btn-primary.dropdown-toggle {
+  background-color: #000 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+h1, h2, h3 {
+  font-family: "Playfair Display", serif;
+}
+
+.header {
+  min-height: 500px;
+  background-image: url(/pf.png);
+  background-position: 20% 50%;
+  background-size: 47%;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+.heading {
+  color: #dddbe6;
+  margin-bottom: -0.5rem;
+}
+
+.bigHeading {
+  color: #dddbe6;
+}
+
+.headingSub {
+  color: var( --clr-blue);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  font-size: 1.35rem;
+}
+.heading, .bigHeading, .headingSub {
+  padding-left: 20rem;
+}
+
+.card {
+  border: none;
+  background: #121212 !important;
+  box-shadow: 0.5rem 0.5rem 0.25rem #000000c9;
+}
+
+.cardHeading {
+  font-size: 1.85rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+}
+
+.cardText {
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.cardButton {
+  color: #dddbe6;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #000000;
+  border: none !important;
+  border-radius: 1em;
+  padding: 1rem 1.25rem;
+  font-weight: 800;
+  box-shadow: 2px 2px 4px #000;
+  transition: 0.8s;
+}
+
+.cardButton:hover {
+  box-shadow: 3px 3px 4px var(--clr-lightblue);
+}
+
+@media (max-width: 768px) {
+  .header {
+    background-size: 95%;
+    background-position: -160% 70% !important;
+  }
+  .heading, .bigHeading, .headingSub {
+    padding: 0 !important;
+  }
+  .heading {
+    margin-top: -13rem !important;
+  }
+}
