@@ -10,7 +10,7 @@ const PeopleBody = () => (
 					<h5 className="cardHeading">Working with people</h5>
 					<p className="cardText mt-1 mb-2">
 						Benjan's first steps toward a career started at the University of
-						Pretoria where he completed a Master's degree in Theology in 2011.<br></br>
+						Pretoria, where he completed a Master's degree in Theology in 2011.<br></br>
 				        There he specialised in counselling. 
 						During his chapter in the church, he worked with various groups of people
 						from all walks of life and different belief systems. <br></br>One of the main skills
@@ -21,7 +21,7 @@ const PeopleBody = () => (
 					<p className="cardText mt-1 mb-2">
 						However, due to the church's attitude toward gay clergy and marriage,
 						Benjan decided that his gifts would be a better fit elsewhere.<br></br>
-						He is, first and foremost, a people's person and sees the skills gained during this chapter as indispensable.
+						He is, first and foremost, a people person and sees the skills gained during this chapter as indispensable.
                 </p>
 				</Card>
 			</Col>
