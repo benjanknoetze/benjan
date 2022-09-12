@@ -36,7 +36,7 @@ const HomeBody = () => (
 					<Col md={8} className="cardCol pt-5">
 							<h5 className="cardHeading">Design</h5>
 					<p className="cardText mt-1 mb-2 pr-5">
-						Your techologies are cutting-edge and your team is great.<br></br>
+						Your technologies are cutting-edge and your team is great.<br></br>
 						But do you have a brainstormer for new projects?<br></br>
 						And fresh thinking about old problems?
                		</p>
