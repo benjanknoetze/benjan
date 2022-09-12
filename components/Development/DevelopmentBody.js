@@ -11,7 +11,7 @@ const DevelopmentBody = () => (
 					<h5 className="cardHeading">Working with development</h5>
 					<p className="cardText mt-1 mb-2">
 					Benjan was introduced to web design and development during his graphic design studies in 2017-2018. 
-					He remembers being fascinitated by it. <br></br>
+					He remembers being fascinated by it. <br></br>
 					</p>
 					<p className="cardText mt-1 mb-2">
 					While Benjan was working as a junior graphic (web) designer 
