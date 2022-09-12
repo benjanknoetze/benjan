@@ -14,7 +14,7 @@ const HomeBody = () => (
 					<Col md={8} className="cardCol pt-5">
 					<h5 className="cardHeading">Development</h5>
 					<p className="cardText mt-1 mb-2 pr-5">
-						Good tech and a good tecnician goes a long way.<br></br>
+						Good tech and a good technician go a long way.<br></br>
 						You need that something extra. <br></br>
 						Creative input and a personal touch will set it
 						apart.
