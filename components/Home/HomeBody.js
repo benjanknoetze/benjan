@@ -8,7 +8,7 @@ const HomeBody = () => (
 		<Col md={8} className="mt-5 mb-5 one">
 				<Card>
 					<Col md={4} className="cardCol">
-					<Image src="\tools.svg" width={"50%"}>
+					<Image src="\tools.svg" width={"50%"} className="devImg">
 					</Image>
 					</Col>
 					<Col md={8} className="cardCol pt-5">
@@ -30,7 +30,7 @@ const HomeBody = () => (
 			<Col md={8} className="mt-5 mb-5 two">
 				<Card className="card">
 				<Col md={4} className="cardCol">
-					<Image src="\des.svg" width={"49%"}>
+					<Image src="\des.svg" width={"49%"} className="desImg">
 					</Image>
 					</Col>
 					<Col md={8} className="cardCol pt-5">
@@ -51,7 +51,7 @@ const HomeBody = () => (
 		<Col md={8} className="mt-5 mb-5 three">
 				<Card className="card">
 				<Col md={4} className="cardCol">
-					<Image src="\heart.svg" width={"47%"}>
+					<Image src="\heart.svg" width={"47%"} className="heartImg">
 					</Image>
 					</Col>
 					<Col md={8} className="cardCol pt-5">
@@ -100,6 +100,9 @@ const HomeBody = () => (
 			.cardCol img {
 				display: flex;
 				margin: auto;
+				-webkit-transform: rotate(0) scale(1);
+				transform: rotate(0) scale(1);
+				transition: .3s ease-in-out;
 			}
 			.cardButton:hover a {
 				transition: 0.3s;
@@ -108,6 +111,26 @@ const HomeBody = () => (
 			.cardButton {
 				margin-top: 2.5em;
 			}
+            .devImg:hover {
+				-webkit-transform: rotate(15deg) scale(1.4);
+				transform: rotate(-5deg) scale(1.1);
+				-webkit-transition: .3s ease-in-out;
+			}
+			.desImg:hover {
+				-webkit-transform: rotate(15deg) scale(1.4);
+				transform: rotate(5deg) scale(1.1);
+				-webkit-transition: .3s ease-in-out;
+			}
+			.heartImg:hover {
+				/* -webkit-transform: rotate(15deg) scale(1.4);
+				transform: scale(1.1);
+				-webkit-transition: .3s ease-in-out; */
+				animation: 1.5s ease beat;
+			}
+			@keyframes beat {
+				0%, 50%, 100% { transform: scale(1, 1); }
+				30%, 80% { transform: scale(1.05, 1.07); }
+			  }
 			@media (max-width: 768px) {
 				.two .card {
 					padding-top: 13rem !important; 
