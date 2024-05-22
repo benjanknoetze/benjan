@@ -1,6 +1,6 @@
 //Development page masonry image grid
 
-import { Row, Col, Image, Button } from 'react-bootstrap'
+import { Button, Col, Image, Row } from 'react-bootstrap'
 
 const DevelopmentMasonry = () => (
 	<div className="pl-3 pr-5">
@@ -17,9 +17,9 @@ const DevelopmentMasonry = () => (
 			<Image src="linctagon.jpg" className="showCase mt-4" alt="natura">
 			</Image>
 			</a>
-			<h5 className="subHeading mt-4 pt-2 mb-0">rePear</h5>
-			<a href='https://www.repear.ae/' target='_blank'>
-			<Image src="repear.jpg" className="showCase mt-4" alt="natura">
+			<h5 className="subHeading mt-4 pt-2 mb-0">Anina Deetlefs</h5>
+			<a href='https://aninadeetlefs.com/' target='_blank'>
+			<Image src="anina.png" className="showCase mt-4" alt="natura">
 			</Image>
 			</a>
 			</Col>

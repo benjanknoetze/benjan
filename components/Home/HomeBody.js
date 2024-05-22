@@ -135,8 +135,14 @@ const HomeBody = () => (
 				.two .card {
 					padding-top: 13rem !important; 
 				}
+				.two {
+					transform: translate(5%, -30%);
+				}
+				.three {
+					transform: translate(2%, -30%);
+				}
 				.three .card {
-					padding-top: 20rem;
+					padding-top: 10rem;
 				}
 			}
 			`}</style>

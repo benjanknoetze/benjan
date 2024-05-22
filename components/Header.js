@@ -37,7 +37,7 @@ const Header = () => (
 			<Link href="/contact">
 				<a style={linkStyle}>Contact</a>
 			</Link>
-			<Link href="/BenjanKnoetze_CV.pdf">
+			<Link href="/Benjan_CV.pdf">
 				<a className="download">CV</a>
 			</Link>
 			<style global jsx>{`
