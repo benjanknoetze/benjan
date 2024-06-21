@@ -33,7 +33,7 @@ const DevelopmentBody = () => (
 					<p className="cardText mt-1 mb-2">
 					In April 2022, Benjan joined the team at <a href='https://www.codehesion.co.za/' target='_blank'>Codehesion</a>, a software consulting company, as a software engineer.<br></br>
 					Benjan could realise his dream of coding things from scratch and getting closer to first principles.<br></br>
-					He specialises in React Native and is one of the go-to devs on the floor for when his fellow team members experience build issues.
+					He specialises in React Native and is one of the go-to devs on the floor for when his fellow team members experience build issues or have questions about CSS or styling.
 					</p>
 				</Card>
 			</Col>
