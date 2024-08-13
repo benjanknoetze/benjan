@@ -11,16 +11,14 @@ const PeopleBody = () => (
 					<p className="cardText mt-1 mb-2">
 						Benjan's first steps toward a career started at the University of
 						Pretoria, where he completed a Master's degree in Theology in 2011.<br></br>
-				        There he specialised in counselling. 
+				        There he specialised in narrative therapy or counselling. 
 						During his chapter in the church, he worked with various groups of people
 						from all walks of life and different belief systems. <br></br>One of the main skills
 						he learnt here was how to get people who might be poles apart on the same
-				page and enthusiastic towards a specific goal.</p>
+						page and enthusiastic towards a specific goal.</p>
 					<p className="cardText mt-1 mb-2">
 						 </p>
 					<p className="cardText mt-1 mb-2">
-						However, due to the church's attitude toward gay clergy and marriage,
-						Benjan decided that his gifts would be a better fit elsewhere.<br></br>
 						He is, first and foremost, a people person and sees the skills gained during this chapter as indispensable.
                 </p>
 				</Card>
@@ -30,7 +28,7 @@ const PeopleBody = () => (
 					<h5 className="cardHeading">Blog</h5>
 					<p className="cardText mt-1 mb-2">
 						While he was a minister, Benjan sporadically blogged about
-				theology and philosophy. <br></br>
+				philosophy. <br></br>
 				Some of his thoughts can be viewed here:
                 </p>
 					<Button href="https://rubiconrubric.wordpress.com" className="cardButton mt-3">

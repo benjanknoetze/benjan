@@ -52,8 +52,7 @@ const Header = () => (
 			}
 			/* Nav dropdown menu */
 			.dropdown-menu {
-				color: #fff;
-				background-color: #d3d3d3c9;
+				background-color: #d3d3d3ed;
 			}
 			.dropdown-item:hover {
 				background-color: var( --clr-lightblue);
