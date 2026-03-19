@@ -13,7 +13,7 @@ const DevelopmentHero = () => (
 			  Knoetze
 			</h1>
 			<span className='headingSub'>
-				Development
+			  Development
 			</span>
 			</Col>
 		</Row>

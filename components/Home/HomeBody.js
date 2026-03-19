@@ -125,56 +125,28 @@ const HomeBody = () =>
         /* -webkit-transform: rotate(15deg) scale(1.4);
 				transform: scale(1.1);
 				-webkit-transition: .3s ease-in-out; */
-        animation: 1.5s ease beat;
-      }
-      @keyframes beat {
-        0%,
-        50%,
-        100% {
-          transform: scale(1, 1);
-        }
-        30%,
-        80% {
-          transform: scale(1.05, 1.07);
-        }
-      }
-      @media (max-width: 768px) {
-        .one,
-        .two,
-        .three {
-          transform: none;
-          margin: 0 auto 2rem;
-        }
-        .homeBody .row {
-          justify-content: center;
-        }
-        .card {
-          height: auto;
-          padding: 2rem 1.5rem;
-        }
-        .two .card {
-          padding-top: 2rem !important;
-        }
-        .three .card {
-          padding-top: 2rem;
-        }
-        .cardCol {
-          float: none;
-        }
-        .cardCol,
-        .cardHeading,
-        .cardText {
-          text-align: center;
-        }
-        .cardText {
-          padding-right: 0 !important;
-        }
-        .cardButton {
-          display: block;
-          margin: 2.5em auto 0;
-        }
-      }
-    `}</style>
-	</div>;
+				animation: 1.5s ease beat;
+			}
+			@keyframes beat {
+				0%, 50%, 100% { transform: scale(1, 1); }
+				30%, 80% { transform: scale(1.05, 1.07); }
+			  }
+			@media (max-width: 768px) {
+				.two .card {
+					padding-top: 13rem !important; 
+				}
+				.two {
+					transform: translate(5%, -30%);
+				}
+				.three {
+					transform: translate(2%, -30%);
+				}
+				.three .card {
+					padding-top: 10rem;
+				}
+			}
+			`}</style>
+	</div>
+)
 
 export default HomeBody;

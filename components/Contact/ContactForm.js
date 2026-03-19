@@ -43,6 +43,7 @@ export default class MyForm extends React.Component {
 			}
 			.formInput {
 				background-color: #ffffff15;
+        color: #ffffffba;
 				width: 75%;
 				border: none;
 				border-radius: 4px;

@@ -11,7 +11,7 @@ const PeopleBody = () => (
 					<p className="cardText mt-1 mb-2">
 						Benjan's first steps toward a career started at the University of
 						Pretoria, where he completed a Master's degree in Theology in 2011.<br></br>
-						There he specialised in counselling.
+				    There he specialised in narrative therapy or counselling. 
 						During his chapter in the church, he worked with various groups of people
 						from all walks of life and different belief systems. <br></br>One of the main skills
 						he learnt here was how to get people who might be poles apart on the same

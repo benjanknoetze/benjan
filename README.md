@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## About
 
-This is  Benjan Knoetze's online porfolio.
+This is Benjan Knoetze's online profile.
 
 ## Getting Started
 
