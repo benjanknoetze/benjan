@@ -14,22 +14,22 @@ export default class MyForm extends React.Component {
   render() {
     const { status } = this.state;
     return (
-		<div className="p-5">
-	  <h5 className="Heading pl-3 mt-3">Please leave a message</h5>
-      <form className="p-3 contactForm"
-        onSubmit={this.submitForm}
-        action="https://formspree.io/f/xrgoqvaq"
-        method="POST"
-      >
-        <label className="formLabel">Email:</label>
-		  <br></br>
-		<input className="formInput" type="email" name="email" /> <br></br>
-        <label className="formLabel mt-2">Message:</label> <br></br>
-		<input className="formInput pb-5 mb-3" type="text" name="message" /> <br></br>
-        {status === "SUCCESS" ? <p>Thanks!</p> : <button className="cardButton">Submit</button>}
-        {status === "ERROR" && <p>Ooops! There was an error.</p>}
-      </form>
-	  <style global jsx>{`
+      <div className="p-5">
+        <h5 className="Heading pl-3 mt-3">Please leave a message</h5>
+        <form className="p-3 contactForm"
+          onSubmit={this.submitForm}
+          action="https://formspree.io/f/xrgoqvaq"
+          method="POST"
+        >
+          <label className="formLabel">Email:</label>
+          <br></br>
+          <input className="formInput" type="email" name="email" /> <br></br>
+          <label className="formLabel mt-2">Message:</label> <br></br>
+          <input className="formInput pb-5 mb-3" type="text" name="message" /> <br></br>
+          {status === "SUCCESS" ? <p className="text-white">Thanks for getting in touch!</p> : <button className="cardButton">Submit</button>}
+          {status === "ERROR" && <p>Ooops! There was an error.</p>}
+        </form>
+        <style global jsx>{`
 			.Heading {
 				color: #fff;
 				font-weight: 800;
@@ -56,7 +56,7 @@ export default class MyForm extends React.Component {
 				}
 				}
 			`}</style>
-	  </div>
+      </div>
     );
   }
 
