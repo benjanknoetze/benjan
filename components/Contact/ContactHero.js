@@ -3,7 +3,7 @@
 import { Row, Col } from 'react-bootstrap'
 
 const PeopleHero = () => (
-	<div className="pl-3 pr-3 header">
+	<div className="ps-3 pe-3 header">
 		<Row className="mb-5 mt-5">
 			<Col>
 			<h2 className="heading">

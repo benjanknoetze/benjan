@@ -4,8 +4,8 @@ import { Row, Col, Card } from 'react-bootstrap'
 import DevelopmentMasonry from './DevelopmentMasonry' //Dev masonry image component
 
 const DevelopmentBody = () => (
-	<div className="pl-2 pr-2">
-		<Row className="pl-2 pr-2 firstRow">
+	<div className="ps-2 pe-2">
+		<Row className="ps-2 pe-2 firstRow">
 			<Col lg={12}>
 				<Card className="card p-5 mb-5">
 					<h5 className="cardHeading">Working with development</h5>

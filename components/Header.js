@@ -19,26 +19,26 @@ const linkStyle = {
 
 const Header = () => (
 	<Navbar style={navStyle}>
-			<Link href="/">
-				<a style={linkStyle}>Benjan</a>
+			<Link href="/" style={linkStyle}>
+				Benjan
 			</Link>
-			<Navbar.Collapse className="ml-4">
+			<Navbar.Collapse className="ms-4">
 				<Dropdown style={navStyle}>
 					<Dropdown.Toggle>
 						Skills
 					</Dropdown.Toggle>
 					<Dropdown.Menu>
-					<Dropdown.Item href="/development"><a>Development</a></Dropdown.Item>
-					<Dropdown.Item href="/design"><a>Design</a></Dropdown.Item>
-					<Dropdown.Item href="/people"><a>People</a></Dropdown.Item>
+					<Dropdown.Item href="/development">Development</Dropdown.Item>
+					<Dropdown.Item href="/design">Design</Dropdown.Item>
+					<Dropdown.Item href="/people">People</Dropdown.Item>
 					</Dropdown.Menu>
 				</Dropdown>
 			</Navbar.Collapse>
-			<Link href="/contact">
-				<a style={linkStyle}>Contact</a>
+			<Link href="/contact" style={linkStyle}>
+				Contact
 			</Link>
-			<Link href="/Benjan_CV.pdf">
-				<a className="download">CV</a>
+			<Link href="/Benjan_CV.pdf" className="download">
+				CV
 			</Link>
 			<style global jsx>{`
 			.download {
