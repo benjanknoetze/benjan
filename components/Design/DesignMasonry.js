@@ -3,7 +3,7 @@
 import { Row, Col, Image } from 'react-bootstrap'
 
 const DesignMasonry = () => (
-	<div className="bodyContainer pl-2 pr-2">
+	<div className="bodyContainer ps-2 pe-2">
 		<Row>
 			<Col lg={4}>
 			<Image fluid src="bulb.jpg" className="showcaseImg" alt="bulb image"></Image>

@@ -3,8 +3,8 @@
 import { Row, Col, Card, Button } from 'react-bootstrap'
 
 const PeopleBody = () => (
-	<div className="bodyContainer pl-2 pr-2">
-		<Row className="pl-2 pr-2">
+	<div className="bodyContainer ps-2 pe-2">
+		<Row className="ps-2 pe-2">
 			<Col xs={12} md={8} lg={12}>
 				<Card className="card p-5 mb-5 firstRow">
 					<h5 className="cardHeading">Working with people</h5>

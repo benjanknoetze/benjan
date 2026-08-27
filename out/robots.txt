@@ -1,0 +1,6 @@
+Sitemap: https://benjan-spot.vercel.app/sitemap.xml
+
+User-agent: *
+Allow: /*
+
+Disallow: /_next/*

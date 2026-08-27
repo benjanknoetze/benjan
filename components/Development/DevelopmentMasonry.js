@@ -3,7 +3,7 @@
 import { Button, Col, Image, Row } from 'react-bootstrap'
 
 const DevelopmentMasonry = () => (
-	<div className="pl-3 pr-5">
+	<div className="ps-3 pe-5">
 		<Row>
 			<Col lg={12} className="p-0 m-0">
 			<h6 className="subHeading">Some of the websites that Benjan has been sole developer on:</h6>
